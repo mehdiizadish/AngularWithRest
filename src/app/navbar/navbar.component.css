@@ -1,0 +1,57 @@
+.nav-tabs>li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+.nav-tabs>li a.active span.round-tabs { 
+    background-color: #ff0000; color:#fff;
+    }
+span.round-tabs {
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+.nav-tabs {
+    border-bottom: 0px;
+    padding-bottom: 40px;
+}
+span.round-tabs, span.round-tabs:hover {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+.nav-tabs[_ngcontent-c1] > li[_ngcontent-c1] a[_ngcontent-c1] {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+.nav-tabs>li {
+    width: 25%;
+}
+.liner {
+    height: 2px;
+    background: #ddd;
+    
+    width: 77%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 47px;
+    z-index: 1;
+    position: relative;
+}
+#status-buttons{
+    max-width: 900px;
+    margin: 0 auto;
+}

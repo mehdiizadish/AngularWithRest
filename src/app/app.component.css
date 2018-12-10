@@ -1,0 +1,8 @@
+label{
+    font-family: Verdana, Geneva, sans-serif; font-size: 18px; font-weight: 200;
+}
+.formWrapper{
+    padding-top: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

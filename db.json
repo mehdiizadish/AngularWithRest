@@ -1,0 +1,34 @@
+{
+  "product": [
+    {
+	"id": 1,
+	 "anzic": 951111,
+      "premises": "Y",
+      "owned": "Y",
+	  "revenue": 50000,
+	  "core":[{
+		"Public Liability":5000000,
+		"Property Damage":20000000
+		}],
+	  "optional":[{
+		"Theft":20000,
+		"Property Damage":20000000
+		}]
+    },
+    {
+	"id": 2,
+      "anzic": 324405,
+      "premises": "N",
+      "owned": "N",
+	  "revenue": 400000,
+	  "core":[{
+		"Public Liability":52000000,
+		"Tax Probe":100000
+		}],
+	  "optional":[{
+		"Back in Business":5000000,
+		"Stock":99000
+		}]
+    }
+  ]
+}

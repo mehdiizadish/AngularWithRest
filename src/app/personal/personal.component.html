@@ -1,0 +1,47 @@
+<!-- Home -->
+<div class="formWrapper">
+    <div class="col-md-6 col-md-push-3">
+
+        <form name='stepOne' novalidate>
+            <div class="form-group" control-group='stepOne.bussinessType'>
+                <label for='bussinessType'>What is your bussiness?</label>
+                <select class="form-control" name='bussinessType' ng-model='bussinessType' ng-options='c for c in colors'
+                    required>
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option *ngFor="let bussiness of bussinesses" value="">{{bussiness}}</option>
+                </select>
+            </div>
+
+            <div class="form-group" control-group='stepOne.bussinessType'>
+                <label for='bussinessLocation'>Where do you operate from?</label>
+                <select class="form-control" name='bussinessLocation' ng-model='bussinessLocation' ng-options='c for c in colors'
+                    required>
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option *ngFor="let location of bussinesslo" value="">{{location}}</option>
+
+
+                </select>
+            </div>
+
+            <div class="form-group" control-group='stepOne.userRevenue'>
+                <label for='userRevenue'>What is your revenue?</label>
+                <input id="userRevenue" class="form-control" type="number" name="Revenue" ng-model='Revenue' minlength="3"
+                    required />
+
+            </div>
+
+
+
+            <div class="ctaAlignment">
+               <!-- <a data-toggle="tab" routerlink="#/work" routerlinkactive="active" title="second" href="#/work" class="btn btn-primary">
+
+                    Next <i class="icon-chevron_next"></i>
+
+                </a>-->
+                <input class="new-todo" placeholder="What needs to be done?" autofocus="" [(ngModel)]="newTodo.title"
+                       (keyup.enter)="findProduct()">
+            </div>
+
+        </form>
+    </div>
+</div>

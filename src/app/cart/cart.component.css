@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.tabletitle, tbody{
+  width:100%;
+}
+.tabletitle td{
+  width:25%;     border-right: 1px #ccc solid;
+}
+.cart-wrapper {
+  /*border: 1px solid lightslategrey;*/
+  color: darkslategray;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+.panel-heading {
+  font-family: 'Lato', sans-serif;
+  justify-content: space-between;
+  color: #436f85;
+  display: flex;
+  text-align: center;
+}
+
+.panel-heading > div {
+  flex-grow: 1;
+}
+
+.panel-footer {
+  text-align: right;
+}

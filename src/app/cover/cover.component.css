@@ -1,0 +1,24 @@
+.product-wrapper {
+  /*border: 1px solid grey;*/
+  color: lightseagreen;
+  padding: 10px;
+  text-align: center;
+}
+.product-wrapper li{
+  text-align: left; font-size:16px; color:#000; padding:5px;
+}
+
+
+.product-item img{
+  max-width: 100%;
+  max-height: 200px;
+}
+.itemList{
+  width: 420px;
+    display: inline-block;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #cc0000;
+  border-color: #cc0000;     width: 100px;
+}
